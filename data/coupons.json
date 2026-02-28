@@ -1,0 +1,39 @@
+{
+  "coupons": [
+    
+    { "code": "MEGA3088", "type": "percentage", "value": 30, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "JEEBAN3055", "type": "percentage", "value": 30, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "LUCKY3099", "type": "percentage", "value": 30, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "VIP3077", "type": "percentage", "value": 30, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "JEET3066", "type": "percentage", "value": 30, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+
+    { "code": "REPUBLIC2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "HOLI2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "RATH2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "INDIA2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "NAVRATRI2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "DURGA2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "DUSSEHRA2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "DIWALI2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "EIDFITR2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "XMAS2026", "type": "percentage", "value": 20, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+
+    { "code": "SANKRANTI1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "LOVE1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "RAKHI1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "KRISHNA1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "GANESH1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "NUAKHAI1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "EIDADHA1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "GANDHI1526", "type": "percentage", "value": 15, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+
+    { "code": "NEWYEAR1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "WOMEN1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "RAM1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "SHIVA1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "KARTIK1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "TEACHER1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 },
+    { "code": "KIDS1026", "type": "percentage", "value": 10, "active": true, "expires": "2026-12-31", "min_amount": 0, "products": "all", "creator": null, "commission_percent": 0 }
+
+  ]
+}
