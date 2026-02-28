@@ -366,14 +366,6 @@ h4 { font-size: clamp(1.1rem, 2vw, 1.5rem); }
 /* ==========================================================================
    Index Page Sections
    ========================================================================== */
-.hero {
-  min-height: 100vh;
-  min-height: 100dvh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding-top: 6rem;
-}
 
 .hero-content {
   max-width: 900px;
@@ -936,19 +928,27 @@ h4 { font-size: clamp(1.1rem, 2vw, 1.5rem); }
 }
 
 /* ==========================================
-   HERO GRID LAYOUT UPGRADE (The Mobile Fix!)
+   HERO – CLEAN STRUCTURAL FIX
 ========================================== */
+
+.hero {
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding-top: 6rem; /* header offset */
+  display: flex;
+  align-items: center;
+}
+
 .hero-grid {
+  width: 100%;
   display: grid;
   grid-template-columns: 1.1fr 1fr;
   align-items: center;
-  gap: clamp(1rem, 4vw, 6rem);
-  min-height: 100vh;
-  min-height: 100dvh;
+  gap: clamp(2rem, 5vw, 6rem);
 }
 
+/* Image */
 .hero-image-wrapper {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -956,52 +956,42 @@ h4 { font-size: clamp(1.1rem, 2vw, 1.5rem); }
 
 .hero-image-wrapper img {
   width: 100%;
-  max-width: 600px;
-  height: auto;
-  filter: drop-shadow(0 0 40px rgba(143,0,255,0.7));
+  max-width: 650px;
+  filter: drop-shadow(0 0 60px rgba(143,0,255,0.8));
   animation: floatHero 6s ease-in-out infinite;
 }
+/* ==========================================
+   HERO MOBILE FIX – FINAL
+========================================== */
 
-/* Smoother Floating Animation */
-@keyframes floatHero {
-  0% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-15px) rotate(2deg); }
-  100% { transform: translateY(0px) rotate(0deg); }
-}
-
-/* MOBILE SIDE-BY-SIDE OVERRIDE 
-  Keeps the premium desktop layout scaled down for phones
-*/
 @media (max-width: 900px) {
+
   .hero-grid {
-    grid-template-columns: 1.2fr 0.8fr; /* Gives text slightly more room */
-    text-align: left; 
-    gap: 1.5rem;
+    grid-template-columns: 1fr;   /* 2 column hatao */
+    text-align: center;
+    justify-items: center;        /* horizontal center */
+    gap: 3rem;
   }
-  
+
+  .hero-content {
+    order: 2;                     /* text neeche */
+  }
+
   .hero-image-wrapper {
-    order: 2; /* Keeps image on the right */
-    margin-top: 0;
-  }
-
-  .hero-content { order: 1; }
-}
-
-/* Ultra-small screens (Phones like iPhone SE / standard Androids) */
-@media (max-width: 600px) {
-  .hero-grid {
-    grid-template-columns: 55% 45%; /* Locks the side-by-side view firmly */
-    gap: 1rem;
+    order: 1;                     /* image upar */
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
-  
-  .btn-group {
-    flex-direction: column; /* Stacks buttons on the left so they don't break the layout */
-    align-items: flex-start;
+
+  .hero-image-wrapper img {
+    width: 90%;
+    max-width: 500px;             /* bigger */
+    transform: scale(1.2);        /* thoda aur bada */
   }
-  
-  .btn {
-    width: 100%; /* Buttons perfectly fill their column */
-    padding: 0.8rem 1rem;
+
+  .btn-group {
+    justify-content: center;
   }
 }
