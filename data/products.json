@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "prod-01",
+      "title": "Growth Blueprint Guide",
+      "subtitle": "Advanced scaling insights tailored for ambitious developers.",
+      "category": "Guides",
+      "price": 5,
+      "badge": "Hot",
+      "image": "https://gi28.in/assets/Abrarr.png",
+      "featured": true
+    },
+    {
+      "id": "prod-02",
+      "title": "System Design Core",
+      "subtitle": "Build robust, scalable, and aggressive digital infrastructures.",
+      "category": "Architecture",
+      "price": 499,
+      "badge": "Hot",
+      "image": "assets/images/sample2.webp",
+      "featured": true
+    },
+    {
+      "id": "prod-03",
+      "title": "Performance Manifesto",
+      "subtitle": "Zero-compromise techniques for lightning-fast web experiences.",
+      "category": "Optimization",
+      "price": 499,
+      "badge": "Hot",
+      "image": "assets/images/sample3.webp",
+      "featured": true
+    },
+    {
+      "id": "prod-04",
+      "title": "Neon Design System",
+      "subtitle": "Mastering aggressive aesthetics and WebGL integration.",
+      "category": "UI/UX",
+      "price": 499,
+      "badge": "Hot",
+      "image": "assets/images/sample4.webp",
+      "featured": true
+    },
+    {
+      "id": "prod-05",
+      "title": "The 60FPS Standard",
+      "subtitle": "Render loop optimization for fluid browser experiences.",
+      "category": "Optimization",
+      "price": 499,
+      "image": "assets/images/sample5.webp",
+      "featured": false
+    },
+    {
+      "id": "prod-06",
+      "title": "Shader Fundamentals",
+      "subtitle": "Introduction to GLSL and mathematical visual generation.",
+      "category": "UI/UX",
+      "price": 499,
+      "image": "assets/images/sample6.webp",
+      "featured": false
+    },
+    {
+      "id": "prod-07",
+      "title": "Microservices Deep Dive",
+      "subtitle": "Decoupling monolithic beasts into agile deployment fleets.",
+      "category": "Architecture",
+      "price": 499,
+      "image": "assets/images/sample7.webp",
+      "featured": false
+    },
+    {
+      "id": "prod-08",
+      "title": "Habits of the 1%",
+      "subtitle": "Mental models to eliminate friction and maximize daily output.",
+      "category": "Guides",
+      "price": 9999,
+      "image": "assets/images/sample8.webp",
+      "featured": false
+    }
+  ]
+}
